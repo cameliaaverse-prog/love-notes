@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>For You ❤️</h1>
+            <p>Tap each card to unlock a little love fron camelia.</p>
+        </header>
+
+        <main class="grid">
+            <div class="card" onclick="flipCard(this)">
+                <div class="front">No.1</div>
+                <div class="back">As long as i am alive you'll always have someone who is proud of you.</div>
+            </div>
+
+            <div class="card" onclick="flipCard(this)">
+                     <div class="front">No.2</div>
+                <div class="back">For you I'll stay up even when i don't want to just to hear you talk more.</div>
+            </div>
+
+            <div class="card" onclick="flipCard(this)">
+                <div class="front">No.3</div>
+                <div class="back">For all the days that you made me feel loved and appreciated. i am out of words to tell how grateful i am to have you.</div>
+            </div>
+
+            <div class="card" onclick="flipCard(this)">
+                <div class="front">Secret Note</div>
+                <div class="back">You mean the absolute world to me. I will choose you everytime. You matter more than you'll ever know. I love you to the moon and back ❤️</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
